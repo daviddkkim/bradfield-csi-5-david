@@ -10,6 +10,7 @@ int main() {
   while (c != EOF) {
     ++count;
     c = getchar();
-    printf("%ld\n", count);
   }
+  printf("%ld\n", count);
+  return 0;
 }
